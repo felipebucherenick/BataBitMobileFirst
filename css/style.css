@@ -22,7 +22,7 @@ html {
   font-family: "DM Sans", sans-serif;
 }
 
-/* HEADER */
+/* HEADER ----------------------------------------------------------------------------------------------------*/
 
 header {
   position: relative;
@@ -92,7 +92,7 @@ header img {
   width: 13px;
   height: 8px;
   margin-left: 10px;
-  background-image: url("./assets/icons/downArrow.svg");
+  background-image: url("../assets/icons/downArrow.svg");
 }
 
 /* MAIN */
@@ -103,7 +103,7 @@ main {
   background-color: var(--off-white);
 }
 
-/* Exchange Section */
+/* EXCHANGE SECTION ---------------------------------------------------------------------------------------------*/
 
 .main-exchange-container {
   width: 100%;
@@ -118,7 +118,7 @@ main {
   height: 200px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background-image: url(./assets/imgs/bitcoin.svg);
+  background-image: url(../assets/imgs/bitcoin.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -147,7 +147,7 @@ main {
   color: #757575;
 }
 
-/* Tables */
+/* Exchange Tables Section */
 
 .currency-table,
 .commissions-table {
@@ -226,7 +226,7 @@ main {
   width: 15px;
   height: 15px;
   margin-left: 10px;
-  background-image: url(./assets/icons/trendingDown.svg);
+  background-image: url(../assets/icons/trendingDown.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -237,7 +237,7 @@ main {
   width: 15px;
   height: 15px;
   margin-left: 10px;
-  background-image: url(./assets/icons/trendingUp.svg);
+  background-image: url(../assets/icons/trendingUp.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -263,4 +263,109 @@ main {
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: var(--warm-black);
+}
+
+/* BENEFITS SECCION ----------------------------------------------------------------------------------------------------------*/
+
+/* Benefits Title */
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+
+.product-detail__batata-logo {
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 25px;
+  background-image: url(../assets/imgs/potato.svg);
+}
+
+.product-detail__title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.product-detail__title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.product-detail__title p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+/* Benefits Cards Section */
+
+.product-detail__card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail__card .clock,
+.product-detail__card .eye,
+.product-detail__card .dollar-sign,
+.product-detail__card .check-circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-detail__card .clock {
+  background-image: url(../assets/icons/clock.svg);
+}
+
+.product-detail__card .eye {
+  background-image: url(../assets/icons/eye.svg);
+}
+
+.product-detail__card .dollar-sign {
+  background-image: url(../assets/icons/dollarSign.svg);
+}
+
+.product-detail__card .check-circle {
+  background-image: url(../assets/icons/checkCircle.svg);
+}
+
+.product-detail__card-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.product-detail__card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
